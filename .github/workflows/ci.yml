@@ -1,8 +1,8 @@
 name: Demo Workflow
 on:
- push:
+push:
 jobs:
-build-the-car:
+  build-the-car:
     runs-on: ubuntu-latest
     steps:
       - name: Build the car
